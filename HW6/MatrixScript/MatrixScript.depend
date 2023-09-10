@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1638742468 source:e:\ce6303\hw6\matrixscript\main.c
+	<stdio.h>
+	<stdlib.h>
+
