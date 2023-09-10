@@ -1,0 +1,50 @@
+# //  ModelSim SE-64 10.0c Jul 21 2011 Linux 3.10.0-1160.42.2.el7.x86_64
+# //
+# //  Copyright 1991-2011 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //
+# Loading project threeTwoThree
+#  
+vsim -novopt work.tb323
+# vsim -novopt work.tb323 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.tb323(tb323_arch)
+# Loading work.threetwothree(threetwothree_arch)
+# Loading work.or2(or2_arch)
+# Loading work.xor2(xor2_arch)
+add wave sim:/tb323/ithreeTwoThree/*
+# Can't move the Now cursor.
+run
+# Causality operation skipped due to absense of debug database file
+# Compile of threeTwoThree.vhd was successful.
+# Compile of tbthreeTwoThree.vhd was successful.
+# 2 compiles, 0 failed with no errors. 
+vsim -novopt work.tb323
+# vsim -novopt work.tb323 
+# Loading std.standard
+# Refreshing /home/010/y/yx/yxf160330/CE6303/HW2/work/modelsim/work.tb323(tb323_arch)
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.tb323(tb323_arch)
+# Refreshing /home/010/y/yx/yxf160330/CE6303/HW2/work/modelsim/work.threetwothree(threetwothree_arch)
+# Loading work.threetwothree(threetwothree_arch)
+# Refreshing /home/010/y/yx/yxf160330/CE6303/HW2/work/modelsim/work.myor2(or2_arch)
+# Loading work.myor2(or2_arch)
+# Refreshing /home/010/y/yx/yxf160330/CE6303/HW2/work/modelsim/work.xor2(xor2_arch)
+# Loading work.xor2(xor2_arch)
+add wave sim:/tb323/ithreeTwoThree/*
+run
+# Project file /home/010/y/yx/yxf160330/CE6303/HW2/work/modelsim/threeTwoThree.mpf is write protected, data cannot be saved.
+# Unable to save project.

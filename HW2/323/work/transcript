@@ -1,0 +1,14 @@
+# //  ModelSim SE-64 10.0c Jul 21 2011 Linux 3.10.0-1160.42.2.el7.x86_64
+# //
+# //  Copyright 1991-2011 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //
+# reading modelsim.ini
+# Loading project test_adder
+#  
+# reading modelsim.ini
+quit

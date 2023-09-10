@@ -1,0 +1,10 @@
+analyze -format vhdl -library WORK threeTwoThree.vhd
+elaborate threeTwoThree
+report_hierarchy
+uniquify
+compile
+report_cell > threeTwoThree.report 
+report_area >> threeTwoThree.report 
+report_timing >> threeTwoThree.report
+write -f vhdl -output threeTwoThree_synopsys.vhdl
+exit

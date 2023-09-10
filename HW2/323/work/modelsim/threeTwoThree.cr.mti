@@ -1,0 +1,31 @@
+/home/010/y/yx/yxf160330/CE6303/HW2/work/modelsim/tbthreeTwoThree.vhd {1 {vcom -work work -2002 -explicit -vopt /home/010/y/yx/yxf160330/CE6303/HW2/work/modelsim/tbthreeTwoThree.vhd
+Model Technology ModelSim SE-64 vcom 10.0c Compiler 2011.07 Jul 21 2011
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package NUMERIC_STD
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity tb323
+-- Compiling architecture tb323_arch of tb323
+-- Compiling configuration cf_323
+-- Loading entity tb323
+-- Loading architecture tb323_arch of tb323
+-- Loading entity threeTwoThree
+
+} {} {}} /home/010/y/yx/yxf160330/CE6303/HW2/work/modelsim/threeTwoThree.vhd {1 {vcom -work work -2002 -explicit -vopt /home/010/y/yx/yxf160330/CE6303/HW2/work/modelsim/threeTwoThree.vhd
+Model Technology ModelSim SE-64 vcom 10.0c Compiler 2011.07 Jul 21 2011
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package NUMERIC_STD
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity Myor2
+-- Compiling architecture or2_arch of Myor2
+-- Compiling entity xor2
+-- Compiling architecture xor2_arch of xor2
+-- Compiling entity threeTwoThree
+-- Compiling architecture threeTwoThree_arch of threeTwoThree
+
+} {} {}}
