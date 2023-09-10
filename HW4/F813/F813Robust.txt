@@ -1,0 +1,60 @@
+//---Path1 x3c2c3z Robust Rising
+$path {
+$name path1r;
+$transition {
+x3 ^;
+u2/U1/Z ^;//---c2
+u4/U2/Z v;//---c3
+z v;
+}
+$condition{
+  x1 00;
+  x4 00;
+  
+}
+
+}
+//---Path2 x3c2c3z Robust Falling
+$path {
+$name path2f ;
+$transition {
+x3 v;
+u2/U1/Z v;//---c2
+u4/U2/Z ^;//---c3
+z ^;
+}
+$condition{
+  x5 00;
+  
+}
+
+}
+//---Path3 x1c1c3z Robust Rising
+$path {
+$name path3r ;
+$transition {
+x1 ^;
+u1/U1/Z ^;//---c1
+u4/U2/Z v;//---c3
+z v;
+}
+$condition{
+ x3 00;
+ x4 00;
+}
+}
+//---Path4 x1c1c3z Robust Falling
+$path {
+$name path4f ;
+$transition {
+x1 v;
+u1/U1/Z v;//---c1
+u4/U2/Z ^;//---c3
+z ^;
+}
+$condition{
+  x2 11;
+  x5 00;
+  
+}
+}

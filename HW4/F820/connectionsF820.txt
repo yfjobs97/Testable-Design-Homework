@@ -1,0 +1,122 @@
+Connections for net 'c6':
+
+    Driver Pins         Type                
+    ------------        ----------------    
+    u5/U1/Z             Output Pin (GTECH_NOR2)
+
+    Load Pins           Type                
+    ------------        ----------------    
+    u6/U1/A             Input Pin (GTECH_NOR2)
+
+Connections for net 'c5':
+
+    Driver Pins         Type                
+    ------------        ----------------    
+    u4/U1/Z             Output Pin (GTECH_NOR2)
+
+    Load Pins           Type                
+    ------------        ----------------    
+    u6/U1/B             Input Pin (GTECH_NOR2)
+
+Connections for net 'c4':
+
+    Driver Pins         Type                
+    ------------        ----------------    
+    invt/U1/Z           Output Pin (GTECH_NOT)
+
+    Load Pins           Type                
+    ------------        ----------------    
+    u5/U1/B             Input Pin (GTECH_NOR2)
+
+Connections for net 'c3':
+
+    Driver Pins         Type                
+    ------------        ----------------    
+    u3/U1/Z             Output Pin (GTECH_NAND2)
+
+    Load Pins           Type                
+    ------------        ----------------    
+    u4/U1/A             Input Pin (GTECH_NOR2)
+    invt/U1/A           Input Pin (GTECH_NOT)
+
+Connections for net 'c2':
+
+    Driver Pins         Type                
+    ------------        ----------------    
+    u2/U1/Z             Output Pin (GTECH_NAND2)
+
+    Load Pins           Type                
+    ------------        ----------------    
+    u3/U1/A             Input Pin (GTECH_NAND2)
+
+Connections for net 'c1':
+
+    Driver Pins         Type                
+    ------------        ----------------    
+    u1/U1/Z             Output Pin (GTECH_NAND2)
+
+    Load Pins           Type                
+    ------------        ----------------    
+    u3/U1/B             Input Pin (GTECH_NAND2)
+
+Connections for net 'z':
+
+    Driver Pins         Type                
+    ------------        ----------------    
+    u6/U1/Z             Output Pin (GTECH_NOR2)
+
+    Load Pins           Type                
+    ------------        ----------------    
+    z                   Output Port         
+
+Connections for net 'x5':
+
+    Driver Pins         Type                
+    ------------        ----------------    
+    x5                  Input Port          
+
+    Load Pins           Type                
+    ------------        ----------------    
+    u5/U1/A             Input Pin (GTECH_NOR2)
+
+Connections for net 'x4':
+
+    Driver Pins         Type                
+    ------------        ----------------    
+    x4                  Input Port          
+
+    Load Pins           Type                
+    ------------        ----------------    
+    u2/U1/A             Input Pin (GTECH_NAND2)
+
+Connections for net 'x3':
+
+    Driver Pins         Type                
+    ------------        ----------------    
+    x3                  Input Port          
+
+    Load Pins           Type                
+    ------------        ----------------    
+    u2/U1/B             Input Pin (GTECH_NAND2)
+    u1/U1/A             Input Pin (GTECH_NAND2)
+
+Connections for net 'x2':
+
+    Driver Pins         Type                
+    ------------        ----------------    
+    x2                  Input Port          
+
+    Load Pins           Type                
+    ------------        ----------------    
+    u1/U1/B             Input Pin (GTECH_NAND2)
+
+Connections for net 'x1':
+
+    Driver Pins         Type                
+    ------------        ----------------    
+    x1                  Input Port          
+
+    Load Pins           Type                
+    ------------        ----------------    
+    u4/U1/B             Input Pin (GTECH_NOR2)
+
