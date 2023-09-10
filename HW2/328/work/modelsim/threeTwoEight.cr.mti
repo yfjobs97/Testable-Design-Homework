@@ -1,0 +1,29 @@
+/home/010/y/yx/yxf160330/CE6303/HW2/328/work/modelsim/tbthreeTwoEight.vhd {1 {vcom -work work -2002 -explicit -vopt /home/010/y/yx/yxf160330/CE6303/HW2/328/work/modelsim/tbthreeTwoEight.vhd
+Model Technology ModelSim SE-64 vcom 10.0c Compiler 2011.07 Jul 21 2011
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package NUMERIC_STD
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity tb328
+-- Compiling architecture tb328_arch of tb328
+-- Compiling configuration cf_328
+-- Loading entity tb328
+-- Loading architecture tb328_arch of tb328
+-- Loading entity threeTwoEight
+
+} {} {}} /home/010/y/yx/yxf160330/CE6303/HW2/328/work/modelsim/threeTwoEight.vhd {1 {vcom -work work -2002 -explicit -vopt /home/010/y/yx/yxf160330/CE6303/HW2/328/work/modelsim/threeTwoEight.vhd
+Model Technology ModelSim SE-64 vcom 10.0c Compiler 2011.07 Jul 21 2011
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package NUMERIC_STD
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity myNand
+-- Compiling architecture beh_nand of myNand
+-- Compiling entity threeTwoEight
+-- Compiling architecture threeTwoEight_arch of threeTwoEight
+
+} {} {}}

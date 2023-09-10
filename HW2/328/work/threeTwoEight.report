@@ -1,0 +1,94 @@
+Information: Updating graph... (UID-83)
+ 
+****************************************
+Report : cell
+Design : threeTwoEight
+Version: O-2018.06-SP1
+Date   : Mon Sep 27 15:11:04 2021
+****************************************
+
+Attributes:
+    b - black box (unknown)
+    h - hierarchical
+    n - noncombinational
+    r - removable
+    u - contains unmapped logic
+
+Cell                      Reference       Library             Area  Attributes
+--------------------------------------------------------------------------------
+u1                        myNand_3                        0.000000  h, u
+u2                        myNand_2                        0.000000  h, u
+u3                        myNand_1                        0.000000  h, u
+u4                        myNand_0                        0.000000  h, u
+--------------------------------------------------------------------------------
+Total 4 cells                                             0.000000
+1
+ 
+****************************************
+Report : area
+Design : threeTwoEight
+Version: O-2018.06-SP1
+Date   : Mon Sep 27 15:11:04 2021
+****************************************
+
+Information: Updating design information... (UID-85)
+Library(s) Used:
+
+    gtech (File: /proj/cad/synopsys/synopsys_2018/syn_vO-2018.06-SP1/libraries/syn/gtech.db)
+
+Number of ports:                           17
+Number of nets:                            20
+Number of cells:                            8
+Number of combinational cells:              4
+Number of sequential cells:                 0
+Number of macros/black boxes:               0
+Number of buf/inv:                          0
+Number of references:                       4
+
+Combinational area:                  0.000000
+Buf/Inv area:                        0.000000
+Noncombinational area:               0.000000
+Macro/Black Box area:                0.000000
+Net Interconnect area:      undefined  (No wire load specified)
+
+Total cell area:                     0.000000
+Total area:                 undefined
+
+Information: This design contains unmapped logic. (RPT-7)
+1
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : threeTwoEight
+Version: O-2018.06-SP1
+Date   : Mon Sep 27 15:11:04 2021
+****************************************
+
+Operating Conditions: nom_pvt   Library: gtech
+Wire Load Model Mode: top
+
+  Startpoint: x4 (input port)
+  Endpoint: z (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  x4 (in)                                  0.00       0.00 r
+  u3/B (myNand_1)                          0.00       0.00 r
+  u3/U1/Z (GTECH_NAND2)                    0.00       0.00 f
+  u3/Z (myNand_1)                          0.00       0.00 f
+  u4/B (myNand_0)                          0.00       0.00 f
+  u4/U1/Z (GTECH_NAND2)                    0.00       0.00 r
+  u4/Z (myNand_0)                          0.00       0.00 r
+  z (out)                                  0.00       0.00 r
+  data arrival time                                   0.00
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+1
